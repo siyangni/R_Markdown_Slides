@@ -1,0 +1,69 @@
+---
+title: "example_presentation"
+author: "Siyang"
+date: "1/18/2022"
+output: ioslides_presentation
+---
+
+## My First Slide
+
+***
+A Slide Without Title
+
+### Level 1 Subheading
+#### Level 2 Subheading
+
+## Now a New Slide
+- bullet point one
+- bullet point two
+    + subpoint one
+    + subpoint two 
+    
+1. ordered list 1
+2. ordered list 2
+    a) ordered-subpoint one
+    n) ordered-subpoint two
+
+>- iterated bullet point one
+>- iterated bullet point two 
+
+## Formatting 
+
+plain text
+
+*Italics*
+
+**Bold**
+
+`code`
+
+## R Code with results
+
+```{r}
+head(mtcars)
+```
+
+## R Code without the code 
+
+set *echo=FALSE*
+
+```{r, echo=FALSE}
+head(mtcars)
+```
+
+## R Code without the results
+
+set *eval=FALSE*
+
+```{r, eval=FALSE}
+head(mtcars)
+```
+
+## R Code without the code and results 
+
+set *include=FALSE*
+
+```{r, include=FALSE}
+head(mtcars)
+```
+
